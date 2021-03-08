@@ -1,0 +1,15 @@
+{
+	"tenant_id": "",
+	"workspace_id": "",
+	"report_id": "",
+
+	"client_id": "",
+	"client_secret": "",
+	
+	"authority": "https://login.microsoftonline.com/organizations",
+	"scope": ["https://analysis.windows.net/powerbi/api/.default"],
+
+	"url_export_to_file": "https://api.powerbi.com/v1.0/myorg/groups/WORKSPACE_ID/reports/REPORT_ID/ExportTo",
+	"url_export_file_path": "https://api.powerbi.com/v1.0/myorg/groups/WORKSPACE_ID/reports/REPORT_ID/exports/"
+	
+}
